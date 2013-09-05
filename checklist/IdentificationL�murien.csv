@@ -1,0 +1,124 @@
+Nom scientifique,id,,Head-body length,Tail length,Total length,Weight,Author,Other
+Microcebus murinus,1,,12 - 14 cm,"13 - 14,5 cm",25 - 28 cm,58 - 67 gr,"Rasoloarison et al., 2000","The dorsal coat is brownish-gray with various reddish tones, the flanks are light gray to beige, and the ventral fur has discrete dull beige or witish-beige patches along portions of the belly.
+A pale white patch occurs above the nose and between the eyes ; some individuals have dark orbital markings.
+The furred portions of the hands and feet are off-white.
+The ears are long and fleshy "
+Microcebus griseorufus,2,Large mouse lemur,12 - 13 cm,14 - 15 cm,26 - 28 cm,46 - 79 gr,"Rasoloarison et al., 2000","The dorsal coat is light gray, split by a cinnamon midline stripe that runs from either the crown or the shoulders to the end of the tail, which is largely cinnamon above and beige beneath.
+The anterior portion of the ventral coat is light grayish-white, the posterior portion tending more toward gray"
+Microcebus berthae,3,smallest of the mouse lemurs and primates in the world,"9 - 9,5 cm",13 - 14 cm,22 - 23 cm,30,"Rasoloarison et al., 2000","The dorsal coat is rufous with a distinct, darker midline stripe that extends from just behind the shoulders to the tip of the tail
+The fur of the head is brighter than that of the back
+The ventral coat is pale yellow-brown to pale-gray in color
+A dull white patch occurs above the nose, the region around the eyes is cinnamon, and the crown and ears are tawny.
+The ears are very short and the orbits are surrounded by a narrow black band.
+The furred portions of the hands and feet are dull beige"
+Microcebus myoxinus,4,one of the smaller mouse lemurs,12 - 13 cm,14 - 15 cm,26 - 28 cm,43 - 55 gr,"Rasoloarison et al., 2000","The dorsal coat is rufous-brown with a distinct reddish-brown midline stripe. The ventral coat is pale yellow-brown to pale gray in color.
+The tail is darker toward the tip.
+The ears are relatively short
+A light cinnamon patch between the eyes darkens to reddish behind the orbits and to a tawny crown and ears.
+The dark eyebrows are prominent
+Furred portions of the hands and feet are whitish-gray to whitish-beige"
+Microcebus ravelobensis,5,the largest of the western Madagascar mouse lemurs,12 - 13 cm,15 - 17 cm,27 - 30 cm,56 - 87 gr,"Rasoloarison et al., 2000 ; Andriamtompohavana et al., 2006","The dorsal coat, including the crown and ears, is rufous and mottled ; the mis-dorsal stripe is poorly defined.
+The lighter ventral fur is also mottled or bicolored.
+The region between the eyes is pale grayish, changing to cinnamon toward the crown.
+Tail color darkens toward the tip (Zimmermann et al., 1997, 1998"
+Microcebus bongolavensis,6,"Large, reddish form","9 - 12,2 cm","14,7 - 17,4 cm","24,7 - 29,4 cm",55 gr,"E.E. Louis Jr., unpubl data",P. 132
+Microcebus danfossi,7,,,,,,,
+Microcebus margotmarshae,8,,,,,,,
+Microcebus sambiranensis,9,,,,,,,
+Microcebus mamiratra,10,,,,,,,
+Microcebus tavaratra,11,,,,,,,
+Microcebus arnholdi,12,,,,,,,
+Microcebus rufus,13,,,,,,,
+Microcebus jollyae,14,,,,,,,
+Microcebus lehilahytsara,15,,,,,,,
+Microcebus simmonsi,16,
+Microcebus macarthurii,17,
+Microcebus mittermeieri,18,
+Microcebus gerpi,19,
+Mirza coquereli,20,
+Mirza zaza,21,
+Allocebus trichotis,22,
+Cheirogaleus medius,23,
+Cheirogaleus sibreei,24,
+Cheirogaleus major,25,
+Cheirogaleus crossleyi,26,
+Cheirogaleus minusculus,27,
+Cheirogaleus adipicaudatus,28,
+Cheirogaleus ravus,29,
+Phaner furcifer,30,
+Phaner pallescens,31,
+Phaner parienti,32
+Phaner electromontis,33
+Lepilemur mustelinus,34
+Lepilemur betsileo,35
+Lepilemur microdon,36
+Lepilemur jamesorum,37
+Lepilemur wrightae,38
+Lepilemur fleuretae,39
+Lepilemur hollandorum,40
+Lepilemur seali,41
+Lepilemur scottorum,42
+Lepilemur milanoii,43
+Lepilemur ankaranensis,44
+Lepilemur septentrionalis,45
+Lepilemur dorsalis,46
+Lepilemur tymerlachsonorum,47
+Lepilemur tymerlachsonorum,48
+Lepilemur sahamalazensis,49
+Lepilemur grewcockorum,50
+Lepilemur otto,51
+Lepilemur edwardsi,52
+Lepilemur aeeclis,53
+Lepilemur ahmansonorum,54
+Lepilemur randrianasoloi,55
+Lepilemur ruficaudatus,56
+Lepilemur hubbardorum,57
+Lepilemur petteri,58
+Lepilemur leucopus,59
+Hapalemur griseus griseus,60
+Hapalemur griseus gilberti,61
+Hapalemur griseus ranomafanensis,62
+Hapalemur meridionalis,63
+Hapalemur occidentalis,64
+Hapalemur alaotrensis,65
+Hapalemur aureus,66
+Prolemur simus,67
+Lemur catta,68
+Eulemur fulvus,69
+Eulemur rufus,70
+Eulemur rufifrons,71
+Eulemur albifrons,72
+Eulemur sanfordi,73
+Eulemur cinereiceps,74
+Eulemur collaris,75
+Eulemur macaco,76
+Eulemur flavifrons,77
+Eulemur coronatus,78
+Eulemur rubriventer,79
+Eulemur mongoz,80
+Varecia variegata variegata,81
+Varecia variegata editorum,82
+Varecia variegata subcincta,83
+Varecia rubra,84
+Avahi laniger,85
+Avahi mooreorum,86
+Avahi peyrierasi,87
+Avahi betsileo,88
+Avahi ramanantsoavanai,89
+Avahi meridionalis,90
+Avahi occidentalis,91
+Avahi cleesei,92
+Avahi cleesei,92
+Avahi unicolor,93
+Propithecus verreauxi,94
+Propithecus deckenii,95
+Propithecus deckenii,95
+Propithecus coronatus,96
+Propithecus coquereli,97
+Propithecus tattersalli,98
+Propithecus diadema,99
+Propithecus edwardsi,100
+Propithecus candidus,101
+Propithecus perrieri,102
+Indri indri,103
+Daubentonia madagascariensis,104
