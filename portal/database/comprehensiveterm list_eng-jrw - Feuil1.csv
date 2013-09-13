@@ -1,0 +1,172 @@
+,,X : Presence,,,,,,,,,,,,,,
+,,_: Ongoing,,,,,,,,,,,,,,
+,,O: Lack,,,,,,,,,,,,,,
+,,,,John??,,,,,,,,,,,,
+Categories,,Initial Term Name,Term Name,Which standard,Term Comments,Term Definition,Term Reference,DBA,Dba Data Term,GERP,Gerp Data Term,ARSIE,Arsie data term,MEF,Mef Data Term,ONE
+,,,institutionCode,Darwin Core,,,http://rs.tdwg.org/dwc/terms/index.htm#institutionCode,DBA,,GERP,,ARSIE,,MEF,,ONE
+1,Taxonomy,,,,,"List of species, description, diet, data occurence",,,,,,,,,,
+,,Kingdom,kingdom,Darwin Core,,Taxon classification,http://rs.tdwg.org/dwc/terms/index.htm#kingdom,O,,O,,O,,O,,X
+,,Phylum,phylum,Darwin Core,,Taxon classification,http://rs.tdwg.org/dwc/terms/index.htm#phylum,O,,O,,O,,O,,X
+,,Subphylum,higherClassification,Darwin Core,can go in Darwin Core's higherClassification term,Taxon classification,http://rs.tdwg.org/dwc/terms/index.htm#higherClassification,O,,O,,O,,O,,X
+,,Class,class,Darwin Core,,Taxon classification,http://rs.tdwg.org/dwc/terms/index.htm#class,O,,O,,O,,O,,X
+,,Subclass,higherClassification,Darwin Core,can go in Darwin Core's higherClassification term,Taxon classification,http://rs.tdwg.org/dwc/terms/index.htm#higherClassification,O,,O,,O,,O,,X
+,,Infraclass,higherClassification,Darwin Core,can go in Darwin Core's higherClassification term,Taxon classification,http://rs.tdwg.org/dwc/terms/index.htm#higherClassification,O,,O,,O,,O,,X
+,,Order,order,Darwin Core,,Taxon classification,http://rs.tdwg.org/dwc/terms/index.htm#order,O,,O,,O,,O,,X
+,,SubOrder,higherClassification,Darwin Core,can go in Darwin Core's higherClassification term,Taxon classification,http://rs.tdwg.org/dwc/terms/index.htm#higherClassification,O,,O,,O,,O,,X
+,,InfraOrder,higherClassification,Darwin Core,can go in Darwin Core's higherClassification term,Taxon classification,http://rs.tdwg.org/dwc/terms/index.htm#higherClassification,O,,O,,O,,O,,X
+,,SuperFamily,higherClassification,Darwin Core,can go in Darwin Core's higherClassification term,Taxon classification,http://rs.tdwg.org/dwc/terms/index.htm#higherClassification,O,,O,,O,,O,,X
+,,Family,family,Darwin Core,,Taxon classification,http://rs.tdwg.org/dwc/terms/index.htm#family,O,,X,Study ,O,,O,,X
+,,Subfamily,higherClassification,Darwin Core,can go in Darwin Core's higherClassification term,Taxon classification,http://rs.tdwg.org/dwc/terms/index.htm#higherClassification,O,,O,,X,Data title,O,,X
+,,Genus,genus,Darwin Core,,Taxon classification,http://rs.tdwg.org/dwc/terms/index.htm#genus,X,Scientific name in the document,X,species,X,Data title,X,Subject / Theme,X
+,,Species,specificEpithet,Darwin Core,,Taxon classification,http://rs.tdwg.org/dwc/terms/index.htm#specificEpithet,X,Scientific name in the document,X,species,X,Data title,X,Subject / Theme,X
+,,Subspecies,infraspecificEpithet,Darwin Core,,Taxon classification,http://rs.tdwg.org/dwc/terms/index.htm#infraspecificEpithet,X,Scientific name in the document,X,species,X,Data title,X,Subject / Theme,X
+,,Fullname,scientificName,Darwin Core,"construct this from genus, species, subspecies if the fullname doesn't exist in the source data.",Taxon classification: ScientificName,http://rs.tdwg.org/dwc/terms/index.htm#scientificName,X,Scientific name in the document,X,species,X,Data title/SPECIES (scientific names),X,Subject / Theme,X
+,,Id species,taxonID,Darwin Core,,Identification number of each species,http://rs.tdwg.org/dwc/terms/index.htm#taxonID,O,,O,,O,,O,,X
+,,Author,scientificNameAuthorship,Darwin Core,,Discoverer scientific name,http://rs.tdwg.org/dwc/terms/index.htm#scientificNameAuthor,O,,O,,O,,O,,X
+,Vernacular name,English,vernacularName,Darwin Core,,Vernacular name according to English language,http://rs.tdwg.org/dwc/terms/index.htm#vernacularName,O,,O,,O,,O,,X
+,,French,vernacularName,Darwin Core,,Vernacular name according to French language,http://rs.tdwg.org/dwc/terms/index.htm#vernacularName,O,,O,,O,,O,,X
+,,German,vernacularName,Darwin Core,,Vernacular name according to German language,http://rs.tdwg.org/dwc/terms/index.htm#vernacularName,O,,O,,O,,O,,X
+,,Malagasy,vernacularName,Darwin Core,,Vernacular name according to Malagasy language,http://rs.tdwg.org/dwc/terms/index.htm#vernacularName,O,,X,Support: Common name,O,,O,,X
+,,Description,dynamicProperties,Darwin Core,,"Species caracteristics: length, weight, coat",http://rs.tdwg.org/dwc/terms/index.htm#dynamicProperties,O,,O,,O,,O,,_
+,,Diet,dynamicProperties,Darwin Core,,Feeding,http://rs.tdwg.org/dwc/terms/index.htm#dynamicProperties,O,,O,,O,,O,,_
+,,Source,source,Dublin Core,,"Available where? Informations (description, diet) sources",http://purl.org/dc/terms/source,O,,O,,X,Series of references,O,,_
+,,URL,url,GBIF,Web links Extension,Website (link) where we can get taxonomic informations,http://tools.gbif.org/dwca-validator/extension.do?id=http://rs.gbif.org/terms/1.0/Links,O,,O,,O,,O,,_
+,,Occurrence data,,,This should be a category with fields in it based on the  Darwin Core.,Rebioma's location,,O,,O,,O,,O,,O
+,,,,,,,,,,,,,,,,
+2,Research,,,,,All types of research,,,,,,,,,,
+,,Id species,taxonID,Darwin Core,,Identification number of each species,http://rs.tdwg.org/dwc/terms/index.htm#scientificName,O,,O,,O,,O,,X
+,,Scientific name in the document,scientificName,Darwin Core,,Lemurs species as seen in document,http://rs.tdwg.org/dwc/terms/index.htm#scientificName,X,Support: Scientific name in the document,X,Species,O,,X,Subject / Theme,O
+,,Type of reference,,,,Report/Article/Scientific publications/Memory/Thesis,,X,Support: Type of reference,X,Type,O,,O,,O
+,,Title,title,Dublin Core,,Title of the document,http://purl.org/dc/terms/title,X,Support: Title,X,Study ,O,,X,Subject / Theme,O
+,,Publication (year/month),date,Dublin Core,,Date of publication,http://purl.org/dc/terms/date,X,Support: Month of publication,X,year,O,,O,,O
+,,Source,,,,Institution/ONG/Researcher concerned,,X,Support: Source du support,X,sources,O,,O,,O
+,Study site,Locality,locality,Darwin Core,,Administrative territory: potential site,http://rs.tdwg.org/dwc/terms/index.htm#locality,X,Support: Site Name / Location,X,Site,O,,X,Place,O
+,,Region,stateProvince,Darwin Core,,Region's name,http://rs.tdwg.org/dwc/terms/index.htm#stateProvince,X,Support: Area,O,,O,,O,,_
+,,Id Region,,,,Identification number of each region,,O,,O,,O,,O,,X
+,,District,county,Darwin Core,,District's name,http://rs.tdwg.org/dwc/terms/index.htm#county,O,,O,,O,,O,,_
+,,Id District,,,,Identification number of each district,,O,,O,,O,,O,,X
+,,Commune,municipality,Darwin Core,,Commune's name,http://rs.tdwg.org/dwc/terms/index.htm#municipality,O,,O,,O,,O,,_
+,,Id Commune,,,,Identification number of each commune,,O,,O,,O,,O,,X
+,,Type of site,,,,Protected Area/Reserve/Forest domain/Zoo/Private Park,,X,Support: Site Category,X,Site Category,O,,X,Place,_
+,Geographical coordinates,Coordinate system,verbatimCoordinateSystem,Darwin Core,,GPS (GPS is actually georeferenceSources rather than verbatimCoordinateSystem - need to know which kind of data are in there.),http://rs.tdwg.org/dwc/terms/index.htm#verbatimCoordinateSystem,X,Support: System,O,,O,,O,,O
+,,Longitude,verbatimLatitude,Darwin Core,,Longitude value,http://rs.tdwg.org/dwc/terms/index.htm#verbatimLatitude,X,Support: Longitude,O,,O,,O,,O
+,,Latitude,verbatimLongitude,Darwin Core,,Latitude value,http://rs.tdwg.org/dwc/terms/index.htm#verbatimLongitude,X,Support: Latitude,O,,O,,O,,O
+,,Intervention start,eventDate,Darwin Core,,Start date of research ,http://rs.tdwg.org/dwc/terms/index.htm#eventDate,X,Support: Intervention Started,X,Year,O,,X,Duration,O
+,Topics,Social behavior of lemurs,dynamicProperties,Darwin Core,,Multiple choice according research,http://rs.tdwg.org/dwc/terms/index.htm#dynamicProperties,X,Support: Scientific Data,X,Study ,X,Data title,X,Subject / Theme,O
+,,Lemur Ecology,dynamicProperties,Darwin Core,,Multiple choice according research,http://rs.tdwg.org/dwc/terms/index.htm#dynamicProperties,X,Support: Scientific Data,X,Study ,X,Data title,X,Subject / Theme,O
+,,Lemur Biology,dynamicProperties,Darwin Core,,Multiple choice according research,http://rs.tdwg.org/dwc/terms/index.htm#dynamicProperties,X,Support: Scientific Data,X,Study ,X,Data title,X,Subject / Theme,O
+,,Lemur Inventory and diversity,dynamicProperties,Darwin Core,,Multiple choice according research,http://rs.tdwg.org/dwc/terms/index.htm#dynamicProperties,X,Support: Scientific Data,X,Study ,X,Data title/SPECIES (scientific names),X,Subject / Theme,O
+,,Methodology,samplingProtocol,Darwin Core,,Pitfall/listening…,http://rs.tdwg.org/dwc/terms/index.htm#samplingProtocol,X,"Support: 1,2,3,4 Method",X,Study ,O,,O,,O
+,,Results,,,,Final report,,X,"Support: Results 1,2,3,4",X,Results,O,,O,,O
+,,Institution concerned,InstitutionCode,Darwin Core,,Name of the Institution,,X,Support: Lead Institution and Contact,X,Organization / Donor,O,,X,Supervisory body,_
+,,Contact,,,,Institution or the research,,X,Support: Lead Institution and Contact,O,,O,,O,,_
+,Document access,About the document,accessRights,Dublin Core,,Free or restricted,http://purl.org/dc/terms/accessRights,O,Support: Access the document,X,Library,X,Series of references,O,,_
+,,Download document,,,,Website (link) where we can get research informations,,O,Support: Website if available,X,Online,X,Series of references,O,,_
+,,,,,,,,,,,,,,,,
+3,Researcher,,,,,Inventory of national and foreign researchers,,,,,,,,,,
+,,Id species,taxonID,Darwin Core,,Identification number of each species,http://rs.tdwg.org/dwc/terms/index.htm#taxonID,O,,O,,O,,O,,X
+,,Fullname,scientificName,Darwin Core,,Scientificname of species studied,http://rs.tdwg.org/dwc/terms/index.htm#scientificName,O,,X,Species,X,Data title/SPECIES (scientific names),X,Subject / Theme,X
+,,Name of researcher,name,FOAF,,,http://xmlns.com/foaf/spec/#term_name,X,Expertise-experts: Full Name,X,Cherheurs stakeholders / Canvas Expertise Experts,O,,X,Name and surname,_
+,,Affiliation,institutionCode,Darwin Core,,Belonging institution or organism,,X,Expertise-experts: Institution / mail / address,X,Canvas Expertise Experts,O,,X,Function,_
+,Coordinates,Phone number,,,,Researcher,,X,Expertise-experts: Institution / mail / address,X,Canvas Expertise Experts,O,,O,,_
+,,e-mail,,,,Researcher,,X,Expertise-experts: Institution / mail / address,X,Canvas Expertise Experts,O,,O,,_
+,,URL Link,,,,Researcher,,O,,O,,O,,O,,_
+,,Areas of expertise,,,,What topics?,,O,,X,Canvas Expertise Experts,O,,O,,_
+,Study site,Locality,locality,Darwin Core,,Administrative territory: potential site,http://rs.tdwg.org/dwc/terms/index.htm#locality,O,,X,Canvas Expertise Experts,O,,X,Place,_
+,,Id Region,,,,Identification number of each region,,O,,O,,O,,O,,X
+,,Id District,,,,Identification number of each district,,O,,O,,O,,O,,X
+,,Id Commune,,,,Identification number of each commune,,O,,O,,O,,O,,X
+,,Type of site,,,,Protected Area/Reserve/Forest domain/Zoo/Private Park,,O,,X,Canvas Expertise Experts,O,,X,Place,_
+,,List of Publication,,,,According to each researcher,,X,000_Catalogue,X,Canvas Expertise Experts,O,,O,,O
+,,Download document,url,GBIF,Web Links Extension,Website (link) where we can get researcher informations,http://tools.gbif.org/dwca-validator/extension.do?id=http://rs.gbif.org/terms/1.0/Links,O,,O,,O,,O,,_
+,,,,,,,,,,,,,,,,
+4,Threats,,,,,Exploitation/Natural Cataclysm/Deforestation…,,,,,,,,,,
+,,Id species,taxonID,Darwin Core,,Identification number of each species,http://rs.tdwg.org/dwc/terms/index.htm#scientificName,O,,O,,O,,O,,X
+,,UICN Status,threatStatus,IUCN,,Relating to the UICN Redlist ,http://vocabularies.gbif.org/vocabularies/threat_stat_iucn,O,,O,,O,,O,,X
+,,Types of threats,,,,Direct or indirect: Exploitation/Natural disasters/Wildfires/Poaching/Habitat degradation/Minery exploitation/Diseases and pests/Shooting: Trap lemurs/Clearing of forest areas,,O,,O,,O,,O,,X
+,Threats informations (PV),Date,,,,Time on the threat information,,O,,O,,O,,O,,O
+,,Data relating,,,,Number of species concerned/percentage/area/cyclone's name,,O,,O,,O,,O,,O
+,,Locality,locality,Darwin Core,,Administrative territory: potential site,,O,,O,,O,,O,,O
+,,Id Region,,,,Identification number of each region,,O,,O,,O,,O,,X
+,,Id District,,,,Identification number of each district,,O,,O,,O,,O,,X
+,,Id Commune,,,,Identification number of each commune,,O,,O,,O,,O,,X
+,,,,,,,,,,,,,,,,
+5,Conservation,,,,,In Protected areas/ conservation sites,,,,,,,,,,
+,,Id species,taxonID,Darwin Core,,Identification number of each species,http://rs.tdwg.org/dwc/terms/index.htm#taxonID,O,,O,,O,,O,,X
+,Study site,Locality,locality,Darwin Core,,Administrative territory: potential site,http://rs.tdwg.org/dwc/terms/index.htm#locality,O,,X,Site,X,Data title,O,,
+,,Id Region,,,,Identification number of each region,,O,,O,,O,,O,,X
+,,Id District,,,,Identification number of each district,,O,,O,,O,,O,,X
+,,Id Commune,,,,Identification number of each commune,,O,,O,,O,,O,,X
+,,Type of site,,,,Protected Area/Reserve/Forest domain/Zoo/Private Park,,O,,X,Site Category,X,Data title,O,,_
+,,Conservation measures,,,,Inventory and habitat survey,,O,,X,Study,O,,O,,_
+,,Conservation approach,,,,Lemur habitat restoration,,O,,X,Study,O,,O,,_
+,,Results,,,,Abundance and population decline value,,O,,X,Results,O,,O,,_
+,,Participants,,,,Name of the Institution concerned,,O,,X,Organization / Donor,O,,O,,_
+,,Contact,,,,Institution's contact (email/phone number…),,O,,O,,O,,O,,_
+,,,,,,,,,,,,,,,,
+6,Species in captivity,,,,,In Madagascar Park and Zoo and abroad/Studebook,,,,,,,,,,
+,,Id species,taxonID,Darwin Core,,Identification number of each species,http://rs.tdwg.org/dwc/terms/index.htm#taxonID,O,,O,,O,,O,,X
+,Zoo/ParK informations,Name,ownerInstitutionCode,Darwin Core,,Zoo/Park's name,http://rs.tdwg.org/dwc/terms/index.htm#ownerInstitutionCode,O,,O,,X,Data Title,O,,X
+,,Locality,locality,Darwin Core,,Administrative territory: potential site,http://rs.tdwg.org/dwc/terms/index.htm#locality,O,,O,,X,Data Title,O,,_
+,,Country,country,Darwin Core,,Zoo/Park,http://rs.tdwg.org/dwc/terms/index.htm#country,O,,O,,O,,O,,_
+,,Contact,,,,Zoo/Park,,O,,O,,O,,O,,_
+,,URL,url,GBIF,Web Links Extension,Zoo/Park,http://tools.gbif.org/dwca-validator/extension.do?id=http://rs.gbif.org/terms/1.0/Links,O,,O,,O,,O,,_
+,,Purpose of breeding,,,,Research (genetic)/touristic...,,O,,O,,O,,O,,_
+,,Approach mode,,,,Exportation/reintroduction…,,O,,O,,O,,O,,_
+,,Results,,,,relationship between Madagascar and the foreign Park/Zoo,,O,,O,,O,,O,,_
+,,,,,,,,,,,,,,,,
+7,Project,,,,,Past and current on the conservation of lemurs and their habitats,,,,,,,,,,
+,,Id species,taxonID,Darwin Core,,Identification number of each species,http://rs.tdwg.org/dwc/terms/index.htm#taxonID,O,,O,,O,,O,,X
+,,Project title,,,,Project designation,,X,Project: Project Title,X,Study ,X,Data Title,O,,_
+,,Institution,institutionCode,Darwin Core,,Institution/ONG/Researcher concerned contact,http://rs.tdwg.org/dwc/terms/index.htm#institutionCode,X,Partner and Contact,X,Organization,O,,O,,_
+,,Contact,,,,Institution/ONG/Researcher concerned name,,X,Partner and Contact,O,,O,,O,,_
+,,Donors,,,,Funders,,X,Project: Funding,X,Donors,O,,O,,_
+,,Locality,locality,Darwin Core,,Administrative territory: potential site,http://rs.tdwg.org/dwc/terms/index.htm#locality,X,Project: Project Title,X,Site,X,Data Title,O,,_
+,,District,county,Darwin Core,,District's name,http://rs.tdwg.org/dwc/terms/index.htm#county,O,,O,,O,,O,,_
+,,Region,stateProvince,Darwin Core,,Region's name,http://rs.tdwg.org/dwc/terms/index.htm#stateProvince,O,,O,,O,,O,,_
+,Study site,Id Region,,,,Identification number of each region,,O,,O,,O,,O,,X
+,,Id District,,,,Identification number of each district,,O,,O,,O,,O,,X
+,,Id Commune,,,,Identification number of each commune,,O,,O,,O,,O,,X
+,,Type of site,,,,Protected Area/Reserve/Forest domain/Zoo/Private Park,,X,Project: Project Title,X,Site Category,X,,O,,_
+,,URL,url,GBIF,Web Links Extension,Website,http://tools.gbif.org/dwca-validator/extension.do?id=http://rs.gbif.org/terms/1.0/Links,O,,O,,O,,O,,_
+,,Project objective,,,,Relatives with lemurs and their habitat,,X,"Project: 1,2,3,4,5,6 Objective",O,,X,,O,,_
+,,Project activities,,,,"Action plans, Management plans, phases",,X,"Project: Activities 1,2,3,4,5",O,,X,,O,,_
+,,Project achievement,,,,Results,,X,Project: Achievements,O,,X,,O,,_
+,,Project documents,,,,Report/abstract,,X,Support,O,,X,,O,,_
+,,,,,,,,,,,,,,,,
+8,Education_Economic impact,,,,,All sorts of material productions/traditional/visit of park and zoo,,,,,,,,,,
+,,,,,,Use of funds that are collected from the visit of parks and zoo,,,,,,,,,,
+,,Id species,taxonID,Darwin Core,,Identification number of each species,http://rs.tdwg.org/dwc/terms/index.htm#taxonID,O,,O,,O,,O,,X
+,Use of funds,Education for academic purposes,,,,"Pratical environmental education for lemur conservation: primary, college, highschool/University (target: students)",,O,,O,,X,Data Title,O,,_
+,,Public education for economic purposes,,,,Direct impact on the local population,,O,,O,,X,Data Title,O,,_
+,,Achievements,,,,Socio-economic impacts of investment in communities,,O,,O,,X,Data Title,O,,_
+,,Institution,institutionCode,Darwin Core,,Institution/ONG/Researcher concerned contact,http://rs.tdwg.org/dwc/terms/index.htm#institutionCode,O,,O,,O,,O,,_
+,,Locality,locality,Darwin Core,,Administrative territory: potential site,http://rs.tdwg.org/dwc/terms/index.htm#locality,O,,O,,X,Data Title,O,,_
+,,Id Region,,,,Identification number of each region,,O,,O,,O,,O,,X
+,,Id District,,,,Identification number of each district,,O,,O,,O,,O,,X
+,,Id Commune,,,,Identification number of each commune,,O,,O,,O,,O,,X
+,,Traditional practise,,,,"Practices developed by communities based on the protection of the environment and species of lemurs (customs ...), cultural or tourist Valuation",,O,,O,,X,Data Title,O,,_
+,,Download document,,,,Website (link) where we can get education and economic impact informations,,X,Support,O,,O,,O,,_
+,,,,,,,,,,,,,,,,
+9,Research permit,,,,,Informations related databases MEF,,,,,,,,,,
+,,Caller,,,,Researcher/Institution/ONG name,,O,,O,,O,,X,Name and surname,O
+,,Date of request,,,,Permit,,O,,O,,O,,O,Date,O
+,,Date of issue,,,,Permit,,O,,O,,O,,O,Date,O
+,,Title of permit,,,,Title of the research,,O,,O,,O,,X,Subject / Theme,O
+,,Species concerned (lemurs),scientificName,,,Scientific Name,,O,,O,,O,,X,Subject / Theme,O
+,,Results,,,,Report/abstract,,O,,O,,O,,O,,O
+,,Contact applicant,,,,Researcher/Institution/ONG contact,,O,,O,,O,,O,,O
+,,,,,,,,,,,,,,,,
+10,Media,,,,,Materials relating to each species,,,,,,,,,,
+,,Id species,taxonID,Darwin Core,,Identification number of each species,http://rs.tdwg.org/dwc/terms/index.htm#taxonID,,,,,,,O,,
+,,Photos,identifier,Dublin Core,Simple Images Extension (http://tools.gbif.org/dwca-validator/extension.do?id=http://rs.gbif.org/terms/1.0/Image),Lemur's photos: URL/website,http://purl.org/dc/terms/identifier,O,,X,Photo,O,,O,,
+,,Video,identifier,Dublin Core,Simple Images Extension (http://tools.gbif.org/dwca-validator/extension.do?id=http://rs.gbif.org/terms/1.0/Image),Lemur's video: URL/website,http://purl.org/dc/terms/identifier,O,,O,,O,,O,,
+,,Audio,identifier,Dublin Core,Simple Images Extension (http://tools.gbif.org/dwca-validator/extension.do?id=http://rs.gbif.org/terms/1.0/Image),Lemur's audio: URL/website,http://purl.org/dc/terms/identifier,O,,O,,O,,O,,
+,,,,,,,,,,,,,,,,
+11,References,,,,,Relating to some categories: Taxonomy/Research/Researcher/Education by Arsie...,,,,,,,,,,
+,,Download document,,,,Website (link) where we can get lemur's informations with all kinds of format,,O,,X,Online,X,ARSIE site,O,,_
+,,URL,url,GBIF,Web Links Extension,According to lemur's information,http://tools.gbif.org/dwca-validator/extension.do?id=http://rs.gbif.org/terms/1.0/Links,O,,O,,O,,O,,_
+,,,,,,,,,,,,,,,,
+12,Links,,,,,"Eol, Rebioma, Archive… pages",,,,,,,,,,
+,,Id species,taxonID,Darwin Core,,Identification number of each species,http://rs.tdwg.org/dwc/terms/index.htm#taxonID,O,,O,,O,,O,,X
+,,Id sites,url,GBIF,Web Links Extension,Identification number of each sites,http://tools.gbif.org/dwca-validator/extension.do?id=http://rs.gbif.org/terms/1.0/Links,O,,O,,O,,O,,X
